@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center
+}
+
+h1, h2, h3 {
+  color: rgb(120, 120, 120);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+h1 {
+  color: rgb(70, 70, 70);
+}
+
+a {
+  color: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+table {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.container {
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgb(255, 255, 255);
+  padding: 10px 10px 10px 10px;
+
+  margin: 25px 50px 12px 100px;
+  background-color: rgb(222, 222, 222);
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 170px;
+
+}
+
+
+.img-card {
+  height: 300px;
+  width: 210px;
+  object-fit: cover
+
+}
+
+@media (max-width: 540px) {
+  .hobbie-title {
+    display: none;
+  }
+}
+
+@media (min-width: 541px) {
+  .hobbie-title-big {
+    display: none;
+  }
+}
+
